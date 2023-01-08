@@ -1,0 +1,193 @@
+Test Case - Final
+
+Case 1
+Input		Expected Output			Observed Output
+[frank]		Player 1: frank			Player 1: frank
+
+[Jill]		Player 2: Jill			Player 2: Jill
+
+'Y'		Easy (15 stars) 		Easy (15 stars)
+		*				* 
+		**				** 
+		***				*** 
+		****				**** 
+		***** 				*****
+
+		Medium (55 stars)		Medium (55 stars) 
+		*				* 
+		**				** 
+		***				*** 
+		****				**** 
+		*****				***** 
+		******				****** 
+		*******				******* 
+		********			******** 
+		*********			********* 
+		**********			********** 
+
+		Hard (120 stars)		Hard (120 stars) 
+		*				* 
+		**				** 
+		***				***	 
+		****				**** 
+		*****				***** 
+		******				****** 
+		*******				******* 
+		********			******** 
+		*********			********* 
+		**********			********** 
+		***********			*********** 
+		************			************ 
+		*************			************* 
+		**************			************** 
+		***************			*************** 
+
+'E'		Easy (15 stars)			Easy (15 stars)	 
+		*				* 
+		**				** 
+		***				*** 
+		****				**** 
+		*****				*****	
+
+		frank VS Jill			frank VS Jill
+		Let the games begin!		Let the games begin!
+		Round 1				Round 1
+
+2		Number of stars left: 13	Number of stars left: 13
+
+2		Number of stars left: 11	Number of stars left: 11
+
+2		Number of stars left: 9		Number of stars left: 9
+
+1		Number of stars left: 8		Number of stars left: 8
+
+2		Number of stars left: 6		Number of stars left: 6
+
+1		Number of stars left: 5		Number of stars left: 5
+
+2 		Number of stars left: 3		Number of stars left: 3
+
+2 		Number of stars left: 1		Number of stars left: 1
+
+1 		Number of stars left: 0		Number of stars left: 0
+		Player 1 wins!			Player 1 wins!
+		Move Player 1 Player 2		Move Player 1 Player 2
+		----------------------------	----------------------------
+		#1	2	2		#1	2	2
+		#2	2	1		#2	2	1
+		#3	2	1		#3	2	1
+		#4	2	2		#4	2	2
+		#5	1	0		#5	1	0
+
+'Y'		Round 2				Round 2
+
+'N'		OK.				OK.
+
+'M'		Medium (55 stars)		Medium (55 stars) 
+		*				* 
+		**				** 
+		***				*** 
+		****				**** 
+		*****				***** 
+		******				****** 
+		*******				******* 
+		********			******** 
+		*********			********* 
+		**********			********** 
+
+2		Number of stars left: 53	Number of stars left: 53
+
+2		Number of stars left: 51	Number of stars left: 51
+
+2		Number of stars left: 49	Number of stars left: 49
+
+2		Number of stars left: 47	Number of stars left: 47
+
+2		Number of stars left: 45	Number of stars left: 45
+
+2		Number of stars left: 43	Number of stars left: 43
+
+1 		Number of stars left: 42	Number of stars left: 42
+
+1 		Number of stars left: 41	Number of stars left: 41
+
+1 		Number of stars left: 40	Number of stars left: 40
+
+2 		Number of stars left: 38	Number of stars left: 38
+
+2 		Number of stars left: 36	Number of stars left: 36
+
+2 		Number of stars left: 34	Number of stars left: 34
+
+1 		Number of stars left: 33	Number of stars left: 33
+
+2 		Number of stars left: 31	Number of stars left: 31
+
+2 		Number of stars left: 29	Number of stars left: 29
+
+2		Number of stars left: 27	Number of stars left: 27
+
+1 		Number of stars left: 26	Number of stars left: 26
+
+1 		Number of stars left: 25	Number of stars left: 25
+
+2 		Number of stars left: 23	Number of stars left: 23
+
+2 		Number of stars left: 21	Number of stars left: 21
+
+2 		Number of stars left: 19	Number of stars left: 19
+
+1 		Number of stars left: 18	Number of stars left: 18
+
+2 		Number of stars left: 16	Number of stars left: 16
+
+2 		Number of stars left: 14	Number of stars left: 14
+
+1 		Number of stars left: 13	Number of stars left: 13
+
+2 		Number of stars left: 11	Number of stars left: 11
+
+2 		Number of stars left: 9		Number of stars left: 9
+
+1 		Number of stars left: 8		Number of stars left: 8
+
+2 		Number of stars left: 6		Number of stars left: 6
+
+1 		Number of stars left: 5		Number of stars left: 5
+
+2 		Number of stars left: 3		Number of stars left: 3
+
+1 		Number of stars left: 2		Number of stars left: 2
+
+2 		Number of stars left: 0		Number of stars left: 0
+		Player 1 wins!			Player 1 wins!
+
+		Move Player 1 Player 2		Move Player 1 Player 2
+		----------------------------	----------------------------
+		#1	2	2		#1	2	2
+		#2	2	2		#2	2	2
+		#3	2	2		#3	2	2
+		#4	1	1		#4	1	1
+		#5	1	2		#5	1	2
+		#6	2	2		#6	2	2
+		#7	1	2		#7	1	2
+		#8	2	2		#8	2	2
+		#9	1	1		#9	1	1
+		#10	2	2		#10	2	2
+		#11	2	1		#11	2	1
+		#12	2	2		#12	2	2
+		#13	1	2		#13	1	2
+		#14	2	1		#14	2	1
+		#15	2	1		#15	2	1
+		#16	2	1		#16	2	1
+		#17	2	0		#17	2	0
+
+'N'		Round	Winner	  Difficulty	Round	Winner	  Difficulty
+		----------------------------	----------------------------
+		#1	Player 1   Easy		#1	Player 1   Easy	
+		#2	Player 1   Medium	#2	Player 1   Medium
+	
+		Player 1 wins: 2 times.		Player 1 wins: 2 times.
+		Player 2 wins: 0 times.		Player 2 wins: 0 times.	
+		The overall winner is Player 1!	The overall winner is Player 1!	
+		Game end.			Game end.
