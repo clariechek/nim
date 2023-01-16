@@ -1,0 +1,11 @@
+Test Case - readPlayerInput function
+
+Input 1		Input 2		Expected output		Observed output
+1		2		[1 2]			[1 2]
+2		2		[2 2]			[2 2]
+1		3		Wrong input		Wrong input
+1		-2		Wrong input		Wrong input
+1		2.1		Wrong input		Wrong input
+2		hi		No output		No output
+2		#		No output		No output
+2				No output		No output

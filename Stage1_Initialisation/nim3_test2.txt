@@ -1,0 +1,11 @@
+Test Case - InputTest
+
+Input		Expected Output		Observed Output
+[ ]		No output		No output
+[Thomas]	Thomas			Thomas
+[candymandy]	candymandy		candymandy
+[0.11]		No output		No output
+[cynni3baby]	No output		No output
+[KEN]		KEN			KEN
+[carol lee]	No output		No output
+[paul@chen]	No output		No output

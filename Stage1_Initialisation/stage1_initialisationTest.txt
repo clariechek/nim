@@ -1,0 +1,27 @@
+Test Case - Stage 1 Initialisation
+
+Case 1
+Input		Expected Output		Observed Output
+[lillie]	Player 1: lillie	Player 1: lillie
+[jimmy]		Player 2: jimmy		Player 2: jimmy		
+	
+		lillie VS jimmy		lillie VS jimmy
+		Let the game begin!	Let the game begin!
+
+Case 2
+Input		Expected Output		Observed Output
+[Lucy]		Player 1: Lucy		Player 1: Lucy
+[1.5]		Wrong input		Wrong input
+
+
+Case 3
+Input		Expected Output		Observed Output
+[mAvIs]		Player 1: mAvIs		Player 1: mAvIs
+[knight48]	Wrong input		Wrong input	
+
+
+Case 4
+Input		Expected Output		Observed Output
+[jess]		Player 1: jess		Player 1: jess
+[tom_]		Wrong input		Wrong input	
+	

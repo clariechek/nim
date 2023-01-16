@@ -1,0 +1,35 @@
+Test Case - Stage 3 Counting Play
+
+Case 1
+totalStars = 15
+Input		Expected Output			Observed Output
+1		Number of stars left: 14	Number of stars left: 14
+2		Number of stars left: 12	Number of stars left: 12
+
+Case 2
+totalStars = 3
+Input		Expected Output			Observed Output
+2		Number of stars left: 1		Number of stars left: 1
+2		Number of stars left: -1	Number of stars left: -1
+
+Case 3
+totalStars = 3
+Input		Expected Output			Observed Output
+2		Number of stars left: 1		Number of stars left: 1
+1		Number of stars left: 0		Number of stars left: 0
+
+Case 4
+totalStars = 5
+Input		Expected Output			Observed Output
+0		Wrong input			Wrong input
+1		Number of stars left: 4		Number of stars left: 4
+-2		Wrong input			Wrong input
+2		Number of stars left: 2		Number of stars left: 2
+
+Case 5
+totalStars = 5
+Input		Expected Output			Observed Output
+2.1		Wrong input			Wrong input
+2		Number of stars left: 3		Number of stars left: 3
+two		No output			No output
+2		Number of stars left: 1		Number of stars left: 1	

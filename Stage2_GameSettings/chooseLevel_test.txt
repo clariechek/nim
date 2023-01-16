@@ -1,0 +1,19 @@
+Test Case - chooseLevel function
+
+Input		Expected Output			Observed Output
+'E'		'The level chosen is: E'	'The level chosen is: E'
+'M'		'The level chosen is: M'	'The level chosen is: M'
+'H'		'The level chosen is: H'	'The level chosen is: H'
+'VIEW'		'The level chosen is: VIEW'	'The level chosen is: VIEW'
+'e'		Wrong input			Wrong input
+'3'		Wrong input			Wrong input
+'4.2'		Wrong input			Wrong input
+'#'		Wrong input			Wrong input
+'hard'		Wrong input			Wrong input
+'.'		Wrong input			Wrong input
+'-20'		Wrong input			Wrong input
+'easy'		Wrong input			Wrong input
+''		Wrong input			Wrong input
+'View'		Wrong input			Wrong input	
+'VIEw'		Wrong input			Wrong input
+

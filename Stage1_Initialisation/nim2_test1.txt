@@ -1,0 +1,12 @@
+Test Case - readP1
+
+Input		Expected Output		Observed Output
+[claire]	claire			claire
+[MIKE]		MIKE			MIKE
+[100]		No output		No output
+[joker_10]	No output		No output
+[@!!]		No output		No output
+[Jake Brown]	No output		No output
+[dragonXx]	dragonXx		dragonXx
+[ ]		[ ]			[ ]
+	

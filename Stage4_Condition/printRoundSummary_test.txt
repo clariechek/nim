@@ -1,0 +1,41 @@
+Test Case - printRoundSummary function
+
+Case 1
+playerInput			Expected output						Observed output
+[2 2 1 1 1 1 1 2 2 1 1]		Move       Player 1        Player 2			Move       Player 1        Player 2
+				-----------------------------------------------		-----------------------------------------------
+				#1            2               2				#1            2               2
+
+				#2            1               1				#2            1               1
+
+				#3            1               1				#3            1               1
+
+				#4            1               2				#4            1               2
+
+				#5            2               1				#5            2               1
+
+				#6            1               0				#6            1               0
+
+Case 2
+playerInput			Expected output						Observed output
+[1 1 2 1 2 2 1]			Move       Player 1        Player 2			Move       Player 1        Player 2
+				-----------------------------------------------		-----------------------------------------------
+				#1            1               1				#1            1               1
+
+				#2            2               1				#2            2               1
+
+				#3            2               2				#3            2               2
+
+				#4            1               0				#4            1               0
+
+Case 3
+playerInput			Expected output						Observed output
+[1 1 2 1 2 2]			Move       Player 1        Player 2			Move       Player 1        Player 2
+				-----------------------------------------------		-----------------------------------------------
+				#1            2               1				#1            2               1
+
+				#2            2               1				#2            2               1
+
+				#3            2               2				#3            2               2
+
+				

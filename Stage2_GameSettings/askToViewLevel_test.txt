@@ -1,0 +1,15 @@
+Test Case - askToViewLevel function
+
+Input		Expected Output		Observed Output
+'Y'		'The reply is: Y'	'The reply is: Y'
+'N'		'The reply is: N'	'The reply is: N'
+'y'		Wrong input		Wrong input
+''		Wrong input		Wrong input
+'1'		Wrong input		Wrong input
+'no'		Wrong input		Wrong input
+'$'		Wrong input		Wrong input
+'n'		Wrong input		Wrong input
+'yes'		Wrong input		Wrong input
+'Yes'		Wrong input		Wrong input
+'94.3'		Wrong input		Wrong input
+'-5'		Wrong input		Wrong input

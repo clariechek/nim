@@ -1,0 +1,9 @@
+Test Case - readNames
+
+Input (Player1)		Input(Player2)	  Expected Output(Player1)	Expected Output(Player2)	Observed Output(Player1) 	Observed Output(Player2)
+[lillie]		[jimmy]		  lillie 			jimmy				lillie 				jimmy	
+[BOB]			[Doreen]	  BOB				Doreen				BOB				Doreen
+[Jon]			[clau29]	  Jon				No output			Jon				No output
+[mOm]			[ ]		  mOm				No output			mOm				No output
+[DaDDDDD]		[racer$$]	  DaDDDDD			No output			DaDDDDD				No output	
+[kitty]			[38.11]		  kitty				No output			kitty				No output

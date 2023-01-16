@@ -1,0 +1,36 @@
+Test Case - printGameSummary 
+
+Input (round)	Input (winnerVec)	Input (levelVec)				Expected Output					Observed Output
+4		[1 2 2 1]		["Easy", "Medium", "Easy", "Medium"]		Round        Winner	Difficulty		Round        Winner	Difficulty
+											----------------------------------------	----------------------------------------
+											#1           Player 1	   Easy			#1           Player 1	     Easy
+
+											#2           Player 2	   Medium		#2           Player 2	     Medium
+
+											#3           Player 2	   Easy			#3           Player 2	     Easy
+	
+											#4           Player 1	   Medium		#4           Player 1	     Medium
+
+
+2		[1 1]			["Hard", "Hard"]				Round        Winner	Difficulty		Round        Winner	Difficulty
+											----------------------------------------	----------------------------------------
+											#1           Player 1	   Hard			#1           Player 1	     Hard
+
+											#2           Player 1	   Hard			#2           Player 1	     Hard
+
+
+-4		[1 2]			["Easy","Easy"]					Round        Winner	Difficulty		Round        Winner	Difficulty
+											----------------------------------------	----------------------------------------
+											#1           Player 1	   Easy			#1           Player 1	     Easy
+
+											#2           Player 2	   Easy			#2           Player 2	     Easy
+
+
+3		[2 2 1]			["Medium","Hard","Easy"]			Round        Winner	Difficulty		Round        Winner	Difficulty
+											----------------------------------------	----------------------------------------
+											#1           Player 2	   Medium		#1           Player 2	     Medium
+
+											#2           Player 2	   Hard			#2           Player 2	     Hard
+
+											#3           Player 1	   Easy			#3           Player 1	     Easy
+	
